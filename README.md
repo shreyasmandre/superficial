@@ -1,10 +1,9 @@
-superficial
-===========
+The file newfile.tex contains a LaTeX template for PRL.
 
-A Superficial repository
-<<<<<<< HEAD
+To simplify starting new PRL LaTeX directories, the steps are:
 
-And a conflict already ...
-=======
-this is the readme
->>>>>>> 816cb3eed2da0d5e3dd75d63b085b2a7a5b07905
+1. Download the zip archive from the GitHub superficial repository. You can find a button to download this zip file on lower right corner of the repository page,
+2. unzip the downloade file, probably named superficial-master.zip, and
+3. rename the directory superficial-master to prl.
+
+That's it! Wish you a pleasant paper writing process.
