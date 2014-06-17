@@ -1,30 +1,52 @@
 \documentclass[twocolumn,prl]{revtex4-1}
 %\documentclass{article}
 \begin{document}
-\title{Title: Khoi is Awesome}
+\title{Capillary Attraction of }
 \author{Student A}
 \author{Student B}
 \author{Student C}
-\author{A Professor of "Whatever"}
+\author{Professor}
 \affiliation{Brown University}
 
 \begin{abstract}
-Insert words of some sense
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 \end{abstract}
 
 \maketitle
 
 \section{Introduction}
-Spheres and cylinders have been studied but not corners? Why are we studying corners? Corners exhibit singularities and therefore possibly have different behaviors. Quadrupoles are used to explain, but we present an alternative perspective.
+	
+	Thin floating objects mutually attract or repel through capillary interactions in a shape-dependent mechanism. Objects with corners, which we refer to as sharp objects, approach each other and rotate such that corners kiss first, after which the objects will roll or slide into more stable configurations. In Figure 1 is a top down time-series view of 1" acrylic triangles as they approach each other. 
 
-Insert figure on qualitative experiments showing rotating triangles.
-Insert some applications for motivation.
+
+	//Need Motivation//
+	
+	 The localized attraction to the corners is a poorly understood result of a pinned contact line onto the corners where the surface gradients diverge thus possibly having different behavior than smooth objects. For spheres and cylinders, there are analytical explanations using multipole expansions in analogy to electrostatics but we present an alternative perspective using conformal mapping to show a power-law scaling near a corner. From that scaling, we calculate the attractive forces between sharp objects with corners of various angles and compare the experimental measurements.
+	 
+
 
 \section{Methods}
-Force from deformation of meniscus. Measure Meniscus deformations - Verify using circles. Use for triangles for d ~ lc and d << lc.
+//Explanation of measuring surface gradients to calculate force - explain the equation to calculate force//
+
+We calculate the attractive force between two floating objects by measuring the surface gradients of the deformed interface ... DIC
+
+\begin{equation}
+F_h \approx \frac{\sigma}{2} \int _C [\frac{u^2}{l_c^2}- u_n^2 +u_t^2] dt
+\end{equation}
+
+Figure 2 shows that calculated force between two 1/16" thick acrylic circles as a function of distance.
+//Show experimental set-up//
+
+//As a check, show attractive force between spheres and compare with literature//
+
+Force from deformation of meniscus. Measure Meniscus deformations - Verify using circles. Use for triangles for d ~ lc and $d << lc$.
 
 \section{Results}
-How to understand forces? Conformal Mapping.
+//Show derivation for conformal mapping on angles//
+
+//Show ux scaling for the inner and outer region//
+
+//Show Force plot and regions of scaling//
 
 \section{Discussion}
 What does this mean?
@@ -41,7 +63,6 @@ Figure 3: Power law scaling and force vs. distances.
 Figure 4: On the boundary integral methods
 
 \section{notes}
-How do we show that there is a singularity at corners? Or is it too trivial?
 
 
 
